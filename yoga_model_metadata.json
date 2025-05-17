@@ -1,0 +1,32 @@
+{
+  "model_type": "yoga_pose_classifier",
+  "input_shape": [
+    34
+  ],
+  "output_shape": [
+    8
+  ],
+  "num_classes": 8,
+  "classes": [
+    "chair",
+    "cobra",
+    "dog",
+    "no_pose",
+    "shoudler_stand",
+    "traingle",
+    "tree",
+    "warrior"
+  ],
+  "input_tensor_name": "serving_default_input_1:0",
+  "output_tensor_name": "StatefulPartitionedCall:0",
+  "preprocessing": "normalized_landmarks",
+  "model_versions": {
+    "standard": "yoga_model.tflite",
+    "quantized": "yoga_model_quantized.tflite"
+  },
+  "android_info": {
+    "min_sdk_version": 21,
+    "target_sdk_version": 30,
+    "recommended_inference_accelerator": "GPU"
+  }
+}
