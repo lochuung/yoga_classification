@@ -63,18 +63,20 @@ except ImportError:
 
 # Map of pose names in Yoga-82 dataset to our simplified pose names
 POSE_NAME_MAP = {
-    'Tree_Pose_or_Vrksasana_': 'tree',
-    'Cobra_Pose_or_Bhujangasana_': 'cobra',
-    'Downward-Facing_Dog_pose_or_Adho_Mukha_Svanasana_': 'dog',
+    'Tree_Pose_or_Vrksasana_': 'tree_pose',
+    'Mountain_Pose_or_Tadasana_': 'mountain_pose',
+    'Cobra_Pose_or_Bhujangasana_': 'cobra_pose',
+    'Downward-Facing_Dog_pose_or_Adho_Mukha_Svanasana_': 'downward_facing_dog',
     'Chair_Pose_or_Utkatasana_': 'chair',
     'Supported_Shoulderstand_pose_or_Salamba_Sarvangasana_': 'shoulder_stand',
-    'Extended_Revolved_Triangle_Pose_or_Utthita_Trikonasana_': 'triangle',
+    'Extended_Revolved_Triangle_Pose_or_Utthita_Trikonasana_': 'triangle_pose',
     'Warrior_I_Pose_or_Virabhadrasana_I_': 'warriori',
-    'Warrior_II_Pose_or_Virabhadrasana_II_': 'warriorii',
+    'Warrior_II_Pose_or_Virabhadrasana_II_': 'warrior_2',
     'Warrior_III_Pose_or_Virabhadrasana_III_': 'warrioriii',
-    'Sitting pose 1 (normal)': 'sitting',
-    'Yogic_sleep_pose': 'savasana',
-    'Corpse_Pose_or_Savasana_': 'corpse'
+    'Plank_Pose_or_Kumbhakasana_': 'plank_pose',
+    'Child_Pose_or_Balasana_': 'childs_pose',
+    'Cat_Cow_Pose_or_Marjaryasana_': 'cat_cow',
+    'Corpse_Pose_or_Savasana_': 'corpse_pose'
 }
 
 # Reverse lookup to identify which Yoga-82 poses to use for each of our poses
