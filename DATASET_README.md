@@ -49,11 +49,6 @@ python get_dataset.py [--classes CLASSES] [--download] [--train-ratio TRAIN_RATI
    python get_dataset.py --clean --download
    ```
 
-4. Use a different train/test split ratio:
-   ```bash
-   python get_dataset.py --train-ratio 0.7 --download
-   ```
-
 ## Output Structure
 
 After running the script, the following directories will be created/updated:
